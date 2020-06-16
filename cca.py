@@ -8,7 +8,7 @@ import operator
 import scipy
 import numpy as np
 from sklearn.base import BaseEstimator, RegressorMixin
-from sklearn.utils.extmath import norm
+from scipy.linalg import norm
 from sklearn import preprocessing
 from sklearn.metrics import mean_squared_error
 from sklearn.utils import check_random_state
